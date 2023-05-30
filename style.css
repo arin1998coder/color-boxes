@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height of the body to occupy the full viewport height */
+    margin: 0; /* Remove default margin */
+    background-color: rgb(5, 5, 5);
+  }
+.container {
+    display: grid;
+    grid-template-columns: repeat(40,20px); /* Adjust the number of columns and width as needed */
+   column-gap:15px;
+   row-gap: 5px;
+
+  }
+  
+  .square {
+    width: 30px; /* Adjust the width of the boxes as needed */
+    height: 30px; /* Adjust the height of the boxes as needed */
+    background-color: rgb(55, 54, 54); /* Initial background color */
+    transition: background-color 1s ease-out; /* Smooth transition effect */
+  }
+  
+  .square:hover {
+    background-color: red; /* Background color on hover */
+  }
+  
+  
+  
